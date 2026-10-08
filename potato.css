@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  background-color: burlywood;
+}
+
+p.brand {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+ul.nav-primary {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  
+  
+}
+
+ul li.nav-item {
+  margin-left: 20px;
+}
+
+
+ul li.nav-item:hover {
+  background-color: #c3cfd7;   
+  color: white;                
+  border-radius: 4px;         
+  cursor: pointer;             
+  transition: all 0.3s ease;  
+}
+
+
+h1.header-title {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+h3.header-subtitle {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+div.features {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-image:url(images/potato-background.png) ;
+}
+
+h1.features-title {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  color: #333;
+  text-align: center;
+}
+
+h3.features-subtitle {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+
+div.buy-now {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: beige ;
+}
+
+
+.order-title {
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.potato-types {
+  list-style: none;
+  display: flex;          
+  gap: 30px;              
+  padding: 0;
+  margin: 0;
+}
+
+
+.potato {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+
+.potato-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+
+.potato-features {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.potato-description {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+}
+
+
+.btn-order {
+  background-color: #b5c640;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.btn-order:hover {
+  background-color: #99a833; 
+}
+
+
+.potato-price {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+.potato-img {
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+}
